@@ -1,0 +1,168 @@
+body{background-color:#fafafa;}
+a:hover{color:rgb(219, 67, 67)}
+.fa {padding: 20px; font-size: 30px; width: 50px; text-align: center; text-decoration: none; margin: 5px 2px; color:black;}
+.fa-facebook {background: #3B5998;color: white;}
+.fa-twitter {background: #55ACEE;color: white;}
+.fa-google {background: #dd4b39;color: white;}
+.fa-linkedin {background: #007bb5;color: white;}
+.fa-youtube {background: #bb0000;color: white;}
+.fa-instagram {background: #125688;color: white;}
+.fa-skype {background: #00aff0;color: white;}
+.navbar{border-radius: 0;}
+
+.item {position: relative;overflow: hidden;}
+.social-media{width: 100%; padding: 10px; margin-top: 10px;}
+.category{font-size: 12px;}
+.paraName{padding: 0; margin: 0;}
+.card{ width: 100%; height: auto; margin-top: 15px; display: table;}
+.middle{display:table-cell; vertical-align:middle; text-align:center;}
+.card-icon{line-height: 110%;  text-align: center; margin-top: 60%; font-size: 14px; }
+.icons{font-size: 20px;}
+.time_of_share{}
+.card-title{}
+.write-section{margin-left:-50px;}
+.card-title:hover{
+    color: rgb(214, 67, 67);
+    cursor: pointer;
+    transition:color 0.2s;
+}
+.card-writer{font-size:12px; margin-top: -10px;}
+.card-image{margin-left: -35px; width: 100%; }
+
+.most_read_content>h6{font-size: 15px; margin-left: -27px; padding: 5px; margin-top: -5px;}
+.read_view{ margin-left: -20px; margin-top: -15px; font-size: 15px;}
+.most_read_card{margin-top: 20px; }
+.view{padding: 0; margin: 0; margin-left: -10px;}
+.page-content > p{}
+.tag{width: 20%; border-radius: 0; margin-left: 5px;}
+.comments{padding-top: 50px;}
+.comment-button{width: 20%; border-radius: 0; margin-top: 5px;}
+.page{padding-bottom: 30px;}
+.comments-all{margin-top:40px;}
+.user-commnet{padding: 20px; background-color: rgb(236, 240, 241); margin-left: -45px; margin-top: 25px;}
+.comment-image{text-align: center; margin-top: 25px;}
+.user_image{border-radius: 50px;}
+.user-comment-card{}
+.overlay{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(36, 36, 36, 0.5);
+    padding-top: 40px;
+    width: 100%;
+    color:#fafafa;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+
+.overlay:hover, .item:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.2s;
+    transition: top 0.4s;
+    cursor: pointer;    
+    top:40%;
+}
+.overlay {
+    top: 50%;
+}
+
+.overlay-2{
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(36, 36, 36, 0.5);
+    padding-top: 20px;
+    width: 100%;
+    color:#fafafa;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+}
+.overlay-2:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.2s;
+    cursor: pointer;
+
+    
+    transition: top 0.4s;
+    top: 40%;
+}
+.overlay-2 {
+    top: 50%;
+}
+
+.date{
+    color: #ccc;
+    font-size:13pt;
+    top:90px;
+    position: relative;
+}
+
+.date-2{
+    color: #ccc;
+    font-size:11pt;
+    line-height: 12vh;
+}
+.pp{border-radius: 20px;}
+.section-2{margin-left: -20px;}
+
+
+@media screen and (max-width:990px) and (min-width:100px) {
+        .images{width: 100%;}
+        .card-icon{display: none;}
+        .category{display: none;}
+        .card-writer{display: none;}
+        .write-section{margin-left:0; text-align: center}
+        .card-image{margin-left:0; width: 100%; }
+        .setting{margin-top: -10px;}
+        .container{padding: 10px;}
+        .navbar{padding: 0; margin: 0;}
+        .date{
+            top:87px;
+            position: relative;
+        }
+        .section-2{margin-top: 10px; margin-left: 0;}
+        .overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background-color: rgba(36, 36, 36, 0.5);
+            padding-top: 20px;
+    
+            width: 100%;
+            color:#fafafa;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center; 
+    }
+
+        .overlay{top: 40%;}
+        .overlay-2{text-align: center;}
+        
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px){
+        .container{padding: 10px;}
+        .date{
+            top:100px;
+            position: relative;
+        }
+        .images{width: 100%;}
+        
+        .overlay-2{text-align: center;}
+        .overlay{text-align: center;}
+        
+        
+        
+    }
